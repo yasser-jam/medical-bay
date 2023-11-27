@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project/routes/login_screen.dart';
 import 'package:project/routes/med_screen.dart';
+import 'package:project/routes/med_list.dart';
 
 /// Flutter code sample for [AppBar].
 
@@ -18,7 +19,8 @@ class AppBarApp extends StatelessWidget {
       initialRoute: LoginScreen.route,
       routes: {
         LoginScreen.route: (ctx) => const LoginScreen(),
-        MedScreen.route: (ctx) => const MedScreen()
+        MedScreen.route: (ctx) => const MedScreen(),
+        MedList.route: (ctx) => const MedList()
       },
     );
   }
